@@ -1,0 +1,9 @@
+print("huh");
+
+function f(x,y){
+    z= x * y;
+
+    return z;
+}
+
+i = f(2,3);

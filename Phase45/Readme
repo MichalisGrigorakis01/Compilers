@@ -1,0 +1,87 @@
+/*
+csd4335 Mixalhs Grigorakhs
+csd4831 Kwstantinos Garazanakhs
+csd4603 Ioannis Vlahodimos
+*/
+
+* Compile the Project: "make all"
+
+* Run the Project: "./calc text file"
+
+* Remove .c, txt, .out: "make clean"
+
+* Implementation:
+   - Build:
+      - We didn't seperate the avm implementation in a seperate executable, since we are using global variables for safety from other files (like totals etc.).
+      - Despite of that, the avm relies fully in the .abc file we generate.
+
+   - Library Functions: 
+      - In some of these functions we print the input we give them. 
+        Please use them like this in order to not get confused: `print(sqrt(526),nl);` or `print(cos(90),nl);`
+        Output:
+               `526.00 22.93`
+               `90.00 0.00`
+         - print(): It works fine.
+         - input(): It works fine.
+         - typeof(): It works fine.
+         - sqrt(): It works fine. It also prints nil after, if there is not a sqrt of the number.
+         - cos(): Works fine.
+         - strtonum(): Works fine. It also prints nil after the input.
+         - sin(): Works fine.
+
+   - Relop Logic: It works fine.
+
+   - New Line: 
+      - For printing reasons we have added a `printf("\n");` in exec_libfunc.c at the end of function: void libfunc_print(void)
+      - You can remove it if you have `nl` in the testfiles when you call print
+   
+   - if statements:
+      - Works fine except in a scenario like this:
+                                                   if(i%2 == 0){
+                                                      print(i);
+                                                      print("  ");
+                                                   }
+      - The above works if we do this like this:
+                                                   j = i%2;
+                                                   if(j == 0){
+                                                      print(i);
+                                                      print("  ");
+                                                   }
+   
+   - Loops:
+      - break, continue don't work properly
+   
+   - Functions: Works if we put an argument in function and function call.
+      - Parameter in the function doesn't work (it says undefined).
+   
+   - Tables: Work except the following:
+      - Don't work: `::, .`
+
+   - Testfiles:
+      - 07: Pass
+      - 08: Pass
+      - 09: Pass
+      - 10: Pass (except break, continue, above problem)
+      - 11: Not Passed (Nested don't work)
+      - 12:
+      - 13:
+      - 14:
+      - 15:
+      - 16:
+      - 17:
+      - 18:
+      - 19:
+      - 20:
+      - 21:
+      - 22:
+      - 23:
+      - 24:
+      - 25:
+
+   - Errors:
+      - 01:
+      - 02:
+      - 03:
+      - 04:
+      - 05:
+      - 06:
