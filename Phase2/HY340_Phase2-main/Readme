@@ -1,0 +1,33 @@
+Recent patches:
+    -> FIXED: "Variable declaration wont work after function call for some reason !!!"
+
+TODO:
+    -> Code is ass, tidy it up (also check "TODO" instances in the code)
+    -> break, continue and return are allowed bc of blocks and not loops
+
+testfiles:
+Error0      DONE
+Error1      DONE
+Error2      DONE
+Error3      DONE
+Error4      DONE
+Error5      DONE
+Error6      DONE
+Error7      DONE
+Error8      DONE
+Error9      DONE
+Error10     DONE
+Error11     DONE
+Error12     DONE
+
+Anonymous                    DONE
+Block                        DONE
+Circle                       DONE
+GlobalAndLocal               DONE
+Grammar                      DONE
+Random                       DONE
+ShadowedNameOffunctions      DONE
+Simple                       DONE
+Tree                         DONE
+
+
