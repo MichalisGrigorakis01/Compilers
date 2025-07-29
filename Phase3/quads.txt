@@ -1,0 +1,53 @@
+
+quad#  opcode          result       arg1         arg2         label 
+---------------------------------------------------------------
+1      tablecreate     _t0          -            -            0     
+2      tablecreate     _t0          -            -            0     
+3      tablesetelem    _t0          0            1            0     
+4      tablesetelem    _t0          1            2            0     
+5      tablesetelem    _t0          2            3            0     
+6      tablecreate     _t0          -            -            0     
+7      tablecreate     _t1          -            -            0     
+8      tablesetelem    _t1          0            "hello"      0     
+9      tablesetelem    _t1          1            "lol"        0     
+10     tablecreate     _t2          -            -            0     
+11     tablecreate     _t3          -            -            0     
+12     tablesetelem    _t3          0            false        0     
+13     tablesetelem    _t3          1            true         0     
+14     tablesetelem    _t3          2            _t0          0     
+15     tablesetelem    _t3          3            5            0     
+16     tablesetelem    _t3          4            _t1          0     
+17     tablesetelem    _t3          5            _t2          0     
+18     jump            -            -            -            22    
+19     funcstart       #ANON_FUNX_1 -            -            0     
+20     tablecreate     _t0          -            -            0     
+21     funcend         #ANON_FUNX_1 -            -            0     
+22     tablecreate     _t0          -            -            0     
+23     tablesetelem    _t0          0            1            0     
+24     tablesetelem    _t0          1            2            0     
+25     tablesetelem    _t0          2            3            0     
+26     tablecreate     _t1          -            -            0     
+27     tablesetelem    _t1          1            2            0     
+28     tablesetelem    _t1          "bool"       false        0     
+29     tablesetelem    _t1          5            print        0     
+30     tablecreate     _t2          -            -            0     
+31     tablesetelem    _t2          4            5            0     
+32     tablesetelem    _t2          2            18           0     
+33     tablesetelem    _t2          "lulz"       #ANON_FUNX_1 0     
+34     tablesetelem    _t2          "wot"        _t0          0     
+35     tablesetelem    _t2          "wut"        _t1          0     
+36     jump            -            -            -            41    
+37     funcstart       four         -            -            0     
+38     assign          four         4            -            0     
+39     assign          _t0          four         -            0     
+40     funcend         four         -            -            0     
+41     tablecreate     _t0          -            -            0     
+42     tablesetelem    _t0          4            four         0     
+43     tablecreate     _t1          -            -            0     
+44     tablesetelem    _t1          4            _t0          0     
+45     tablecreate     _t2          -            -            0     
+46     tablesetelem    _t2          4            _t1          0     
+47     tablecreate     _t3          -            -            0     
+48     tablesetelem    _t3          4            _t2          0     
+---------------------------------------------------------------
+

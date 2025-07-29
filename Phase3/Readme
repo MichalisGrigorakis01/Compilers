@@ -1,0 +1,19 @@
+/*
+csd4335 Mixalhs Grigorakhs
+csd4831 Kwstantinos Garazanakhs
+csd4603 Ioannis Vlahodimos
+*/
+
+* Compile the Project: "make all"
+
+* Run the Project: "./calc text file"
+
+* Remove .c, txt, .out: "make clean"
+
+* Implementation:
+   -  We implemented almost everything in the project with some minor problems in some cases.
+   -  Quads are printed in both the console and in quads.txt
+   -  We implemented correctly while, if else, break, continue
+
+* Problems:
+   - In tests such as: `x = a and not true;`, the system throws error if a variable is used but not defined first. So please in those cases use `a = <something>;` before running the test again. We print an error message every time this happens and the exact variables that need to be defined. (This happens a lot in the testfiles).
