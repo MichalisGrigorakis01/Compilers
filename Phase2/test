@@ -1,0 +1,10 @@
+function f(){
+    function g(){
+        if(poutsa){
+            poutsa=0;
+            function that(){
+                
+            }
+        }
+    }
+}
