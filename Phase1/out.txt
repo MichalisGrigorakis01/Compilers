@@ -1,0 +1,53 @@
+Printing:
+1: 	 #1 	 'if' 			 KEYWORD 		 IF 	
+2: 	 #2 	 'else' 			 KEYWORD 		 ELSE 	
+3: 	 #3 	 'while' 			 KEYWORD 		 WHILE 	
+4: 	 #4 	 'for' 			 KEYWORD 		 FOR 	
+5: 	 #5 	 'function' 			 KEYWORD 		 FUNCTION 	
+6: 	 #6 	 'return' 			 KEYWORD 		 RETURN 	
+7: 	 #7 	 'break' 			 KEYWORD 		 BREAK 	
+8: 	 #8 	 'continue' 			 KEYWORD 		 CONTINUE 	
+9: 	 #9 	 'and' 			 KEYWORD 		 AND 	
+10: 	 #10 	 'not' 			 KEYWORD 		 NOT 	
+11: 	 #11 	 'or' 			 KEYWORD 		 OR 	
+12: 	 #12 	 'local' 			 KEYWORD 		 LOCAL 	
+13: 	 #13 	 'true' 			 KEYWORD 		 TRUE 	
+14: 	 #14 	 'false' 			 KEYWORD 		 FALSE 	
+15: 	 #15 	 'nil' 			 KEYWORD 		 NIL 	
+16: 	 #16 	 '=' 			 OPERATOR 		 ASSIGN 	
+17: 	 #17 	 '+' 			 OPERATOR 		 PLUS 	
+18: 	 #18 	 '-' 			 OPERATOR 		 MINUS 	
+19: 	 #19 	 '*' 			 OPERATOR 		 MULTIPLY 	
+20: 	 #20 	 '/' 			 OPERATOR 		 DIVISION 	
+21: 	 #21 	 '%' 			 OPERATOR 		 MOD 	
+22: 	 #22 	 '==' 			 OPERATOR 		 EQUALS 	
+23: 	 #23 	 '!=' 			 OPERATOR 		 NOT_EQUAL 	
+24: 	 #24 	 '++' 			 OPERATOR 		 INCREMENT 	
+25: 	 #25 	 '--' 			 OPERATOR 		 DECREMENT 	
+26: 	 #26 	 '>' 			 OPERATOR 		 GREATERTHAN 	
+27: 	 #27 	 '<' 			 OPERATOR 		 LESSTHAN 	
+28: 	 #28 	 '>=' 			 OPERATOR 		 GREATEREQUAL 	
+29: 	 #29 	 '<=' 			 OPERATOR 		 LESSEQUAL 	
+30: 	 #30 	 '123' 			 VALUE 		 INTEGER 	
+31: 	 #31 	 '2.32' 			 VALUE 		 FLOAT 	
+32: 	 #32 	 'something' 			 VALUE 		 STRING 	
+33: 	 #33 	 'some
+thing' 			 VALUE 		 STRING 	
+34: 	 #34 	 'some	thing' 			 VALUE 		 STRING 	
+35: 	 #35 	 '{' 			 PUNCTUATION 		  L_CURLY_BR 	
+36: 	 #36 	 '}' 			 PUNCTUATION 		  R_CURLY_BR 	
+37: 	 #37 	 '[' 			 PUNCTUATION 		  L_SQUARE_BR 	
+38: 	 #38 	 ']' 			 PUNCTUATION 		  R_SQUARE_BR 	
+39: 	 #39 	 '(' 			 PUNCTUATION 		  L_BRACKET 	
+40: 	 #40 	 ')' 			 PUNCTUATION 		  R_BRACKET 	
+41: 	 #41 	 ';' 			 PUNCTUATION 		 SEMICOLON 	
+42: 	 #42 	 ',' 			 PUNCTUATION 		 COMMA 	
+43: 	 #43 	 ':' 			 PUNCTUATION 		 COLON 	
+44: 	 #44 	 '::' 			 PUNCTUATION 		 DOUBLE_COLON 	
+45: 	 #45 	 '.' 			 PUNCTUATION 		 DOT 	
+46: 	 #46 	 '..' 			 PUNCTUATION 		 DOUBLE_DOT 	
+47: 	 #47 	 'poutsa_fapa12' 			 IDENT 		 IDENTIFIER 	
+48: 	 #48 	 '//' 			 COMMENT 		 SINGLE LINE 	
+49: 	 #49 	 'MULTI LINE 49 - 51' 			 COMMENT 		 MULTI LINE 	
+53: 	 #50 	 'MULTI LINE 53 - 53' 			 NESTED COMMENT 		 MULTI LINE 	
+52: 	 #51 	 'MULTI LINE 52 - 54' 			 COMMENT 		 MULTI LINE 	

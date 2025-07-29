@@ -1,0 +1,20 @@
+/*
+csd4335 Mixalhs Grigorakhs
+csd4831 Kwstantinos Garazanakhs
+csd4603 Ioannis Vlahodimos
+*/
+
+* Compile the Project: "make all"
+
+* Run the Project: "./analyzer text file"
+
+* Remove .c, .out: "make clean"
+
+* Implementation:
+
+    - We implemented everything the project says, including:
+        - Implementation of errors for comments.
+        - Implementation of errors for strings.
+        - Implementation of errors for undefined tokens.
+
+* Note: "For better printing use .alpha files."
